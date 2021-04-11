@@ -104,14 +104,18 @@ chr() 函数从指定的 ASCII 值返回字符。
 
 phpversion()会返回php版本，如`5.6.27`
 
-
 `floor(phpversion())`返回`5`
-`sqrt(floor(phpversion()))`返回`2.2360679774998`
-`tan(floor(sqrt(floor(phpversion()))))`返回`-2.1850398632615`
-`cosh(tan(floor(sqrt(floor(phpversion())))))`返回`4.5017381103491`
-`sinh(cosh(tan(floor(sqrt(floor(phpversion()))))))`返回`45.081318677156`
-`ceil(sinh(cosh(tan(floor(sqrt(floor(phpversion())))))))`返回`46`
 
+`sqrt(floor(phpversion()))`返回`2.2360679774998
+`
+
+`tan(floor(sqrt(floor(phpversion()))))`返回`-2.1850398632615`
+
+`cosh(tan(floor(sqrt(floor(phpversion())))))`返回`4.5017381103491`
+
+`sinh(cosh(tan(floor(sqrt(floor(phpversion()))))))`返回`45.081318677156`
+
+`ceil(sinh(cosh(tan(floor(sqrt(floor(phpversion())))))))`返回`46`
 
 即：`chr(ceil(sinh(cosh(tan(floor(sqrt(floor(phpversion()))))))))`等于`.`
 
